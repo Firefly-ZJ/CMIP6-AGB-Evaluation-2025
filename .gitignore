@@ -1,0 +1,33 @@
+### .gitignore File
+
+# ----- Python Files ----- #
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# ----- Environment ----- #
+.env/
+.venv/
+venv/
+env/
+ENV/
+
+# ----- OS & cmd ----- #
+*.exe
+*.bat
+*.sh
+# macOS
+.DS_Store
+._*
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# Linux
+*~
+
+# ----- Others ----- #
+tmp/
+RawData/
